@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		E844A76E2E30C1B300D6E9B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E844A7542E30C1B200D6E9B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E844A75B2E30C1B200D6E9B5;
+			remoteInfo = BudgetBear;
+		};
+		E844A7782E30C1B300D6E9B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E844A7542E30C1B200D6E9B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E844A75B2E30C1B200D6E9B5;
+			remoteInfo = BudgetBear;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E844A75C2E30C1B200D6E9B5 /* BudgetBear.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BudgetBear.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E844A76D2E30C1B300D6E9B5 /* BudgetBearTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BudgetBearTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E844A7772E30C1B300D6E9B5 /* BudgetBearUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BudgetBearUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		E844A77F2E30C1B300D6E9B5 /* Exceptions for "BudgetBear" folder in "BudgetBear" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = E844A75B2E30C1B200D6E9B5 /* BudgetBear */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		E844A75E2E30C1B200D6E9B5 /* BudgetBear */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				E844A77F2E30C1B300D6E9B5 /* Exceptions for "BudgetBear" folder in "BudgetBear" target */,
+			);
+			path = BudgetBear;
+			sourceTree = "<group>";
+		};
+		E844A7702E30C1B300D6E9B5 /* BudgetBearTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = BudgetBearTests;
+			sourceTree = "<group>";
+		};
+		E844A77A2E30C1B300D6E9B5 /* BudgetBearUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = BudgetBearUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E844A7592E30C1B200D6E9B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E844A76A2E30C1B300D6E9B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E844A7742E30C1B300D6E9B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E844A7532E30C1B200D6E9B5 = {
+			isa = PBXGroup;
+			children = (
+				E844A75E2E30C1B200D6E9B5 /* BudgetBear */,
+				E844A7702E30C1B300D6E9B5 /* BudgetBearTests */,
+				E844A77A2E30C1B300D6E9B5 /* BudgetBearUITests */,
+				E844A75D2E30C1B200D6E9B5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E844A75D2E30C1B200D6E9B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E844A75C2E30C1B200D6E9B5 /* BudgetBear.app */,
+				E844A76D2E30C1B300D6E9B5 /* BudgetBearTests.xctest */,
+				E844A7772E30C1B300D6E9B5 /* BudgetBearUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E844A75B2E30C1B200D6E9B5 /* BudgetBear */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E844A7802E30C1B300D6E9B5 /* Build configuration list for PBXNativeTarget "BudgetBear" */;
+			buildPhases = (
+				E844A7582E30C1B200D6E9B5 /* Sources */,
+				E844A7592E30C1B200D6E9B5 /* Frameworks */,
+				E844A75A2E30C1B200D6E9B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				E844A75E2E30C1B200D6E9B5 /* BudgetBear */,
+			);
+			name = BudgetBear;
+			packageProductDependencies = (
+			);
+			productName = BudgetBear;
+			productReference = E844A75C2E30C1B200D6E9B5 /* BudgetBear.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E844A76C2E30C1B300D6E9B5 /* BudgetBearTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E844A7852E30C1B300D6E9B5 /* Build configuration list for PBXNativeTarget "BudgetBearTests" */;
+			buildPhases = (
+				E844A7692E30C1B300D6E9B5 /* Sources */,
+				E844A76A2E30C1B300D6E9B5 /* Frameworks */,
+				E844A76B2E30C1B300D6E9B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E844A76F2E30C1B300D6E9B5 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E844A7702E30C1B300D6E9B5 /* BudgetBearTests */,
+			);
+			name = BudgetBearTests;
+			packageProductDependencies = (
+			);
+			productName = BudgetBearTests;
+			productReference = E844A76D2E30C1B300D6E9B5 /* BudgetBearTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E844A7762E30C1B300D6E9B5 /* BudgetBearUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E844A7882E30C1B300D6E9B5 /* Build configuration list for PBXNativeTarget "BudgetBearUITests" */;
+			buildPhases = (
+				E844A7732E30C1B300D6E9B5 /* Sources */,
+				E844A7742E30C1B300D6E9B5 /* Frameworks */,
+				E844A7752E30C1B300D6E9B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E844A7792E30C1B300D6E9B5 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E844A77A2E30C1B300D6E9B5 /* BudgetBearUITests */,
+			);
+			name = BudgetBearUITests;
+			packageProductDependencies = (
+			);
+			productName = BudgetBearUITests;
+			productReference = E844A7772E30C1B300D6E9B5 /* BudgetBearUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E844A7542E30C1B200D6E9B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					E844A75B2E30C1B200D6E9B5 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					E844A76C2E30C1B300D6E9B5 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = E844A75B2E30C1B200D6E9B5;
+					};
+					E844A7762E30C1B300D6E9B5 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = E844A75B2E30C1B200D6E9B5;
+					};
+				};
+			};
+			buildConfigurationList = E844A7572E30C1B200D6E9B5 /* Build configuration list for PBXProject "BudgetBear" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E844A7532E30C1B200D6E9B5;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = E844A75D2E30C1B200D6E9B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E844A75B2E30C1B200D6E9B5 /* BudgetBear */,
+				E844A76C2E30C1B300D6E9B5 /* BudgetBearTests */,
+				E844A7762E30C1B300D6E9B5 /* BudgetBearUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E844A75A2E30C1B200D6E9B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E844A76B2E30C1B300D6E9B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E844A7752E30C1B300D6E9B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E844A7582E30C1B200D6E9B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E844A7692E30C1B300D6E9B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E844A7732E30C1B300D6E9B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E844A76F2E30C1B300D6E9B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E844A75B2E30C1B200D6E9B5 /* BudgetBear */;
+			targetProxy = E844A76E2E30C1B300D6E9B5 /* PBXContainerItemProxy */;
+		};
+		E844A7792E30C1B300D6E9B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E844A75B2E30C1B200D6E9B5 /* BudgetBear */;
+			targetProxy = E844A7782E30C1B300D6E9B5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E844A7812E30C1B300D6E9B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BudgetBear/BudgetBear.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BA63B3C898;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BudgetBear/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bigbananatruck.BudgetBear;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E844A7822E30C1B300D6E9B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BudgetBear/BudgetBear.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BA63B3C898;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BudgetBear/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bigbananatruck.BudgetBear;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E844A7832E30C1B300D6E9B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = BA63B3C898;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E844A7842E30C1B300D6E9B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = BA63B3C898;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E844A7862E30C1B300D6E9B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BA63B3C898;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bigbananatruck.BudgetBearTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BudgetBear.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BudgetBear";
+			};
+			name = Debug;
+		};
+		E844A7872E30C1B300D6E9B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BA63B3C898;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bigbananatruck.BudgetBearTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BudgetBear.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BudgetBear";
+			};
+			name = Release;
+		};
+		E844A7892E30C1B300D6E9B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BA63B3C898;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bigbananatruck.BudgetBearUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BudgetBear;
+			};
+			name = Debug;
+		};
+		E844A78A2E30C1B300D6E9B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BA63B3C898;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bigbananatruck.BudgetBearUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BudgetBear;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E844A7572E30C1B200D6E9B5 /* Build configuration list for PBXProject "BudgetBear" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E844A7832E30C1B300D6E9B5 /* Debug */,
+				E844A7842E30C1B300D6E9B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E844A7802E30C1B300D6E9B5 /* Build configuration list for PBXNativeTarget "BudgetBear" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E844A7812E30C1B300D6E9B5 /* Debug */,
+				E844A7822E30C1B300D6E9B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E844A7852E30C1B300D6E9B5 /* Build configuration list for PBXNativeTarget "BudgetBearTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E844A7862E30C1B300D6E9B5 /* Debug */,
+				E844A7872E30C1B300D6E9B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E844A7882E30C1B300D6E9B5 /* Build configuration list for PBXNativeTarget "BudgetBearUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E844A7892E30C1B300D6E9B5 /* Debug */,
+				E844A78A2E30C1B300D6E9B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E844A7542E30C1B200D6E9B5 /* Project object */;
+}
