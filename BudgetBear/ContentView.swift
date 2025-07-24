@@ -4,17 +4,15 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            HeaderView()
-            
-            ProgressCircleView()
-            
-            TransactionListView()
-            
-            Spacer()
+            ScrollView {
+                    HeaderView()
+                    ProgressCircleView()
+                    TransactionListView()
+            }
             
             TabBarView()
         }
-                .background(Color.backgroundColor)
+        .background(Color.backgroundColor)
 
     }
 }
