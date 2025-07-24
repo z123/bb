@@ -1,8 +1,12 @@
 import SwiftUI
 
 extension Color {
-    static let backgroundColor = Color(red: 0.9, green: 0.95, blue: 0.93)
-    static let textColor = Color(red: 0.1, green: 0.2, blue: 0.2)
-    static let progressTrackColor = Color.green.opacity(0.3)
-    static let progressBarColor = Color.green
+    static let backgroundColor = Color("backgroundColor")
+    static let textColor = Color("textColor")
+    static let progressTrackColor = Color("progressTrackColor")
+    static let progressBarColor = Color("progressBarColor")
+    static let groceriesColor = Color("groceriesColor")
+    static let billsColor = Color("billsColor")
+    static let entertainmentColor = Color("entertainmentColor")
+    static let savingsColor = Color("savingsColor")
 }
