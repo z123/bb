@@ -5,34 +5,29 @@ struct ContentView: View {
     var body: some View {
         VStack {
             ScrollView {
-                    HeaderView()
+                Image("badger")
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    .frame(height: 350)
+                    .padding(.top, -80)
+                    .padding(.bottom, -130)
+                
+                VStack {
+                    Text("BUDGET BADGER")
+                        .font(.custom("AvenirNext-Bold", size: 32))
+                        .foregroundColor(Color.text)
+                        .padding(.top, 20)
                     ProgressCircleView()
                     TransactionListView()
+                }
+                .background(Color.background)
+                .cornerRadius(20)
             }
             
             TabBarView()
         }
-        .background(Color.backgroundColor.ignoresSafeArea())
+        .background(Color.headerBackground)
 
-    }
-}
-
-struct HeaderView: View {
-    var body: some View {
-        VStack {
-            Image("badger")
-                .resizable()
-                .aspectRatio(contentMode: .fit)
-                .frame(height: 150)
-                .padding(.top, 50)
-            
-            Text("BUDGET BADGER")
-                .font(.custom("AvenirNext-Bold", size: 32))
-                .foregroundColor(Color.textColor)
-                .padding(.top, 20)
-        }
-        .padding(.bottom, 20)
-        .background(Color.backgroundColor)
     }
 }
 
@@ -42,22 +37,22 @@ struct ProgressCircleView: View {
             ZStack {
                 Circle()
                     .stroke(lineWidth: 20.0)
-                    .foregroundColor(Color.progressTrackColor)
+                    .foregroundColor(Color.progressTrack)
                 
                 Circle()
                     .trim(from: 0.0, to: 0.75)
                     .stroke(style: StrokeStyle(lineWidth: 20.0, lineCap: .round, lineJoin: .round))
-                    .foregroundColor(Color.progressBarColor)
+                    .foregroundColor(Color.progressBar)
                     .rotationEffect(Angle(degrees: 270.0))
                 
                 VStack {
                     Text("$1,500")
                         .font(.custom("AvenirNext-Bold", size: 40))
                         .fontWeight(.bold)
-                        .foregroundColor(Color.textColor)
+                        .foregroundColor(Color.text)
                     Text("of $2,000")
                         .font(.custom("AvenirNext-Medium", size: 20))
-                        .foregroundColor(Color.textColor.opacity(0.6))
+                        .foregroundColor(Color.text.opacity(0.6))
                 }
             }
             .frame(width: 200, height: 200)
@@ -69,10 +64,10 @@ struct ProgressCircleView: View {
 struct TransactionListView: View {
     var body: some View {
         VStack {
-            TransactionRow(icon: "cart.fill", name: "Groceries", amount: "$400", color: Color.groceriesColor)
-            TransactionRow(icon: "list.bullet.rectangle.portrait.fill", name: "Bills", amount: "$650", color: Color.billsColor)
-            TransactionRow(icon: "party.popper.fill", name: "Entertainment", amount: "$250", color: Color.entertainmentColor)
-            TransactionRow(icon: "piggy.bank.fill", name: "Savings", amount: "$200", color: Color.savingsColor)
+            TransactionRow(icon: "cart.fill", name: "Groceries", amount: "$400", color: Color.groceries)
+            TransactionRow(icon: "list.bullet.rectangle.portrait.fill", name: "Bills", amount: "$650", color: Color.bills)
+            TransactionRow(icon: "party.popper.fill", name: "Entertainment", amount: "$250", color: Color.entertainment)
+            TransactionRow(icon: "piggy.bank.fill", name: "Savings", amount: "$200", color: Color.savings)
         }
         .padding(.horizontal)
     }
@@ -102,10 +97,9 @@ struct TransactionRow: View {
                 .font(.custom("AvenirNext-Bold", size: 18))
         }
         .padding()
-        .background(Color.white)
         .cornerRadius(20)
         .padding(.bottom, 5)
-        .foregroundColor(Color.textColor)
+        .foregroundColor(Color.text)
     }
 }
 
@@ -144,7 +138,7 @@ struct TabBarItem: View {
             Text(text)
                 .font(.custom("AvenirNext-Medium", size: 14))
         }
-        .foregroundColor(isSelected ? Color.progressBarColor : Color.textColor.opacity(0.5))
+        .foregroundColor(isSelected ? Color.progressBar: Color.text.opacity(0.5))
         .padding(.vertical, 10)
     }
 }
